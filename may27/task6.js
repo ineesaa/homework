@@ -1,7 +1,7 @@
 let str = "Learning JavaScript";
 let sub = "Java";
 
-console.log(str.indexOf(sub) !== -1);
+console.log(str.includes(sub));
 
 
 function mystr(str, sub) {
